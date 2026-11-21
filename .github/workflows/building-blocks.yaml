@@ -1,0 +1,12 @@
+name: My worklow
+on: push
+
+jobs:
+    my-firat-job:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello World"
+    my-second-job:
+        runs-on: ubntu-latest
+        steps:
+            - run: echo "Bye bye (; world"
