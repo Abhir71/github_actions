@@ -1,6 +1,7 @@
 name: 02-Workfflow events
 
 on: 
+    
     pull_request:  
     workflow_dispatch:
 
